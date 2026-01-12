@@ -35,9 +35,6 @@ export default function Navbar() {
             <Link to="/pronunciation" className={`${styles.menuItem} ${pathname === '/pronunciation' ? styles.active : ''}`}>
               发音纠错
             </Link>
-            <Link to="/squid-game" className={`${styles.menuItem} ${pathname === '/squid-game' ? styles.active : ''}`}>
-              鱿鱼游戏
-            </Link>
             <Link to="/about" className={`${styles.menuItem} ${pathname === '/about' ? styles.active : ''}`}>
               关于
             </Link>

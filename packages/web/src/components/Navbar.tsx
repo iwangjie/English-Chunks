@@ -38,9 +38,6 @@ export default function Navbar() {
                         <Link href="/pronunciation" className={`${styles.menuItem} ${pathname === '/pronunciation' ? styles.active : ''}`}>
                             发音纠错
                         </Link>
-                        <Link href="/squid-game" className={`${styles.menuItem} ${pathname === '/squid-game' ? styles.active : ''}`}>
-                            鱿鱼游戏
-                        </Link>
                         <Link href="/about" className={`${styles.menuItem} ${pathname === '/about' ? styles.active : ''}`}>
                             关于
                         </Link>

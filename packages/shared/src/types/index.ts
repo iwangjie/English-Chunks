@@ -15,15 +15,6 @@ export interface Scene {
   isCustom?: boolean;
 }
 
-// Game types
-export interface GameLevel {
-  id: number;
-  name: string;
-  description: string;
-  icon: string;
-  minStars: number;
-}
-
 // AI Config types
 export interface AIConfig {
   provider: 'openai' | 'gemini';
@@ -66,9 +57,3 @@ export interface SceneResponse {
   chunks: Chunk[];
 }
 
-// Game progress
-export interface GameProgress {
-  totalStars: number;
-  completedLevels: number[];
-  levelScores: Record<number, number>;
-}

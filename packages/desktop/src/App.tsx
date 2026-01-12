@@ -6,8 +6,6 @@ import HomePage from './pages/HomePage';
 import ScenesPage from './pages/ScenesPage';
 import PronunciationPage from './pages/PronunciationPage';
 import SettingsPage from './pages/SettingsPage';
-import SquidGamePage from './pages/SquidGamePage';
-import GameLevelPage from './pages/GameLevelPage';
 import AboutPage from './pages/AboutPage';
 
 function AppContent() {
@@ -28,8 +26,6 @@ function AppContent() {
         <Route path="/scenes" element={<ScenesPage />} />
         <Route path="/pronunciation" element={<PronunciationPage />} />
         <Route path="/settings" element={<SettingsPage />} />
-        <Route path="/squid-game" element={<SquidGamePage />} />
-        <Route path="/squid-game/:levelId" element={<GameLevelPage />} />
         <Route path="/about" element={<AboutPage />} />
       </Routes>
     </PlatformProvider>
