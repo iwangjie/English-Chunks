@@ -1,0 +1,33 @@
+{
+  "name": "@english-chunks/shared",
+  "version": "0.1.0",
+  "private": true,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./components/*": "./src/components/*",
+    "./services/*": "./src/services/*",
+    "./data/*": "./src/data/*",
+    "./utils/*": "./src/utils/*",
+    "./adapters/*": "./src/adapters/*",
+    "./contexts/*": "./src/contexts/*",
+    "./hooks/*": "./src/hooks/*",
+    "./types/*": "./src/types/*",
+    "./pages/*": "./src/pages/*"
+  },
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.18",
+    "@types/react-dom": "^18",
+    "typescript": "5.7.2"
+  },
+  "peerDependencies": {
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}

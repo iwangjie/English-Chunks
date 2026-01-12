@@ -2,28 +2,18 @@
   "name": "english-chunks",
   "version": "0.1.0",
   "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "microsoft-cognitiveservices-speech-sdk": "^1.34.0",
-    "next": "^14.1.0",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-markdown": "^9.0.1"
+    "dev:web": "npm run dev -w @english-chunks/web",
+    "dev:desktop": "npm run tauri:dev -w @english-chunks/desktop",
+    "build:web": "npm run build -w @english-chunks/web",
+    "build:desktop": "npm run tauri:build -w @english-chunks/desktop",
+    "build:all": "npm run build:web && npm run build:desktop",
+    "lint": "npm run lint -w @english-chunks/web"
   },
   "devDependencies": {
-    "@types/node": "20.17.10",
-    "@types/react": "18.3.18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
     "typescript": "5.7.2"
   }
 }
