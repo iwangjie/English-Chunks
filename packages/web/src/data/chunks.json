@@ -1,0 +1,100 @@
+{
+  "chunks": [
+    {
+      "chunk": "Yuval, good to see you.",
+      "pronunciation": "/ˈjuːvəl ɡʊd tuː siː juː/",
+      "chinese_meaning": "尤瓦尔，很高兴见到你。",
+      "suitable_scenes": ["greeting someone", "meeting a friend"]
+    },
+    {
+      "chunk": "Jonah, thank you.",
+      "pronunciation": "/ˈdʒoʊnə θæŋk juː/",
+      "chinese_meaning": "乔纳，谢谢你。",
+      "suitable_scenes": ["responding to a greeting", "showing gratitude"]
+    },
+    {
+      "chunk": "old friend",
+      "pronunciation": "/oʊld frend/",
+      "chinese_meaning": "老朋友",
+      "suitable_scenes": ["describing a friend", "casual conversation"]
+    },
+    {
+      "chunk": "new addition",
+      "pronunciation": "/njuː əˈdɪʃən/",
+      "chinese_meaning": "新的加入",
+      "suitable_scenes": ["announcing new member", "introducing new people"]
+    },
+    {
+      "chunk": "10th anniversary",
+      "pronunciation": "/tɛnθ ˌænɪˈvɜrsəri/",
+      "chinese_meaning": "十周年纪念",
+      "suitable_scenes": ["celebrating an event", "talking about a milestone"]
+    },
+    {
+      "chunk": "Of course.",
+      "pronunciation": "/əv kɔːrs/",
+      "chinese_meaning": "当然。",
+      "suitable_scenes": ["agreeing with someone", "responding to a suggestion"]
+    },
+    {
+      "chunk": "actually, yeah.",
+      "pronunciation": "/ˈæktʃuəli jæ/",
+      "chinese_meaning": "实际上，是的。",
+      "suitable_scenes": ["agreeing to something", "confirming a suggestion"]
+    },
+    {
+      "chunk": "why don't you tell people",
+      "pronunciation": "/waɪ doʊnt juː tɛl ˈpiːpl/",
+      "chinese_meaning": "你为什么不告诉人们",
+      "suitable_scenes": ["asking for information", "starting a presentation"]
+    },
+    {
+      "chunk": "what it is",
+      "pronunciation": "/wɑt ɪt ɪz/",
+      "chinese_meaning": "它是什么",
+      "suitable_scenes": ["asking for definition", "asking for explanation"]
+    },
+    {
+      "chunk": "how you see it",
+      "pronunciation": "/haʊ juː siː ɪt/",
+      "chinese_meaning": "你是如何看待它的",
+      "suitable_scenes": ["asking for someone's perspective", "asking for someone's opinion"]
+    },
+    {
+      "chunk": "thank you",
+      "pronunciation": "/θæŋk juː/",
+      "chinese_meaning": "谢谢你",
+      "suitable_scenes": ["showing gratitude", "acknowledging a gesture"]
+    },
+    {
+      "chunk": "long-form essays",
+      "pronunciation": "/lɔŋ fɔrm ˈɛˌseɪz/",
+      "chinese_meaning": "长篇论文",
+      "suitable_scenes": ["discussing written work", "talking about academic material"]
+    },
+    {
+      "chunk": "political philosophy",
+      "pronunciation": "/pəˈlɪtɪkəl fɪˈlɑsəfi/",
+      "chinese_meaning": "政治哲学",
+      "suitable_scenes": ["discussing a subject", "learning about philosophy"]
+    },
+    {
+      "chunk": "the challenges that",
+      "pronunciation": "/ðə ˈtʃælənʤɪz ðæt/",
+      "chinese_meaning": "那些挑战",
+      "suitable_scenes": ["talking about problems", "presenting difficulties"]
+    },
+    {
+      "chunk": "as a country",
+      "pronunciation": "/æz ə ˈkʌntri/",
+      "chinese_meaning": "作为一个国家",
+      "suitable_scenes": ["talking about nations", "referring to the country"]
+    },
+    {
+      "chunk": "think out loud",
+      "pronunciation": "/θɪŋk aʊt laʊd/",
+      "chinese_meaning": "大声思考",
+      "suitable_scenes": ["brainstorming ideas", "thinking openly"]
+    }
+  ]
+} 

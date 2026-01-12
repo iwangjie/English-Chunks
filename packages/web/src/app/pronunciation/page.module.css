@@ -1,0 +1,151 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: #1f2937;
+}
+
+.description {
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+
+.sentenceList {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.sentenceCard {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1.5rem;
+    transition: all 0.2s ease;
+}
+
+.sentenceCard:hover {
+    border-color: #2563eb;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sentenceHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.sentenceText {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #1f2937;
+    flex: 1;
+}
+
+.emphasisLink {
+    color: #2563eb;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid #2563eb;
+    transition: all 0.2s ease;
+}
+
+.emphasisLink:hover {
+    background-color: #f0f9ff;
+}
+
+.controls {
+    display: flex;
+    gap: 0.5rem;
+    flex-shrink: 0;
+}
+
+.translation {
+    color: #6b7280;
+    margin-bottom: 0.5rem;
+}
+
+.focus {
+    color: #dc2626;
+    font-size: 0.875rem;
+    margin-bottom: 1rem;
+}
+
+.context, .formality {
+    color: #4b5563;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.label {
+    color: #6b7280;
+    margin-right: 0.5rem;
+}
+
+.playButton, .recordButton {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+}
+
+.playButton {
+    background: #2563eb;
+    color: white;
+}
+
+.playButton:hover {
+    background: #1d4ed8;
+}
+
+.recordButton {
+    background: #059669;
+    color: white;
+}
+
+.recordButton:hover {
+    background: #047857;
+}
+
+.recordButton.recording {
+    background: #dc2626;
+    animation: pulse 2s infinite;
+}
+
+.recordButton.recording:hover {
+    background: #b91c1c;
+}
+
+.audioPlayback {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e5e7eb;
+}
+
+.audioPlayback audio {
+    width: 100%;
+    height: 36px;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(220, 38, 38, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(220, 38, 38, 0);
+    }
+} 
